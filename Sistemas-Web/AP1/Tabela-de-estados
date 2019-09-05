@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+ul.RJ {
+  list-style-type: decimal;
+}
+ul.MG {
+  list-style-type: circle;
+}
+ul.ES {
+  list-style-type: upper-roman;
+}
+ul.RS {
+  list-style-type: lower-alpha;
+}
+ul.PA {
+  list-style-type: none;
+}
+ul.SC {
+  list-style-type: decimal;
+}
+</style>
+</head>
+<body>
+<p style="text-align: center;">Sudeste x Sul</p>
+
+<table align="center"> <!--AQUI COMEÇA A TABELA!!!-->
+  <thead> <!--AQUI EU SEPAREI A TABELA EM CABEÇALHO E CORPO. (ESSE É O CABEÇALHO-->
+    <tr><th colspan="2">Estados</th><!--O COLSPAN SERVE PRA EU CONSEGUIR COLOCAR MAIS DE UMA COLUNA DO LADO DA OUTRA (POR ISSO TEM ESSE ESPAÇO ENORME NO 'ESTADOS', 'CIDADES', 'SUDESTE' E 'SUL'-->
+    <th colspan="2">Cidades</th></tr>
+    <!--^^AQUI EM CIMA SAO OS TITULOS DA MINHA TABELA. COLOQUEI NO CABEÇALHO PORQUE SÓ VAI SERVIR AQUI MESMO-->
+  </thead><!--AQUI TERMINA O CABEÇALHO DA TABELA-->
+  <tbody><!--AQUI COMEÇA O CORPO DA MINHA TABELA-->
+    <tr>
+      <td rowspan="4">Sudeste</td><!--O 'ROWSPAN' SERVE PRA EU CONSEGUIR COLOCAR MAIS DE UMA LINHA DO LADO DA OUTRA-->
+      <td>São Paulo</td><!--AQUI ESTÁ O MEU ESTADO-->
+      <td>
+        <ul style="font-style: italic;"><!--E AQUI ESTÁ A LISTA DAS CIDADES DO MEU ESTADO-->
+          <li>São Paulo</li>
+          <li>Garulhos</li>
+          <li>Campinas</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Rio de Janeiro</td>
+      <td>
+        <ul class="RJ" style="font-style: italic;"><!--AQUI ESTÁ A CLASSE PARA QUE EU CONSIGA REFERENCIA NO 'STYLE' O ESTILO QUE EU QUERO COLOCAR NA MINHA TAG-->
+          <li>Rio de Janeiro</li>
+          <li>São Gonçalo</li>
+          <li>Duque de Caxias</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Minas Gerais</td>
+      <td>
+        <ul class="MG" style="font-style: italic;">
+          <li>Belo Horizonte</li>
+          <li>Uberlândia</li>
+          <li>Contagem</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Espírito Santo</td>
+      <td>
+        <ul class="ES" style="font-style: italic;">
+          <li>Vila Velha</li>
+          <li>Serra</li>
+          <li>Cariacica</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="4">Sul</td>
+      <td>Rio Grande do Sul</td>
+      <td>
+        <ul class="RS" style="font-style: italic;">
+          <li>Porto Alegre</li>
+          <li>Caxias do Sul</li>
+          <li>Pelotas</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Paraná</td>
+      <td>
+        <ul class="PR" style="font-style: italic;">
+          <li>Curitiba</li>
+          <li>Londrina</li>
+          <li>Maringá</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Santa Catarina</td>
+      <td>
+        <ul class="SC" style="font-style: italic;">
+          <li>Joinville</li>
+          <li>Florianpóolis</li>
+          <li>Blumenau</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
