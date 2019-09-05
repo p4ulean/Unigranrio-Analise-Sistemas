@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Questão 5</title>
+
+    <style type="text/css">
+        td { font-size: small; font-family: Arial; padding: 5px 5px;}
+        tr { margin-right: 40px; font-family: Arial; }
+        input[type=text]{ width: 100%; }
+        input[type=radio]{ text-align:center; }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <form id="Cadastro">
+                <table width="500px" cellspacing="1">
+                    <tr>
+                        <td colspan="4">
+                            <h2 style="text-align:center">Ficha Cadastral</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nome:</td>
+                        <td colspan="3"><input type="text" name="nome" maxlength="55" /></td>
+                    </tr>
+                    <tr>
+                        <td>RG:</td>
+                        <td><input type="text" name="rg" maxlength="13" /></td>
+                        <td>C.P.F:</td>
+                        <td><input type="text" name="cpf" maxlength="13" /></td>
+                    </tr>
+                    <tr>
+                        <td>Endereço:</td>
+                        <td colspan="3"><input type="text" name="endereco" maxlength="55" /></td>
+                    </tr>
+                    <tr>
+                        <td>Sexo:</td>
+                        <td>
+                            <select name="sexo">
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </select>
+                        </td>
+                        <td width="110px">Data Nascimento:</td>
+                        <td><input type="text" name="datanascimento" maxlength="13" /></td>
+                    </tr>
+                    <tr>
+                        <td>Situação Civil:</td>
+                        <td colspan="3" style="text-align:center">
+                            <input type="radio" name="civil" value="Solteiro" />Solteiro(a)
+                            <input type="radio" name="civil" value="Casado" />Casado(a)
+                            <input type="radio" name="civil" value="Viuvo" />Viúvo(a)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align:center">
+                            <input type="button" value="Limpar Dados" onclick="Limpar();" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+
+<script>
+    function Limpar() {
+            document.getElementById("Cadastro").reset();
+    }
+</script>
