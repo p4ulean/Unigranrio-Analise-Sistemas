@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+	<title>AP1 - SISTEMAS WEB</title>
+</head>
+<body style="margin-left: 200px; margin-right: 200px;">
+	<H1 style="text-align: center;" >Café Starbuzz</H1>
+	<h2 style="margin: 0px 0px 5px 0px;">Mistura de casa, R$ 1,49</h2>
+	<p style="margin: 0px 0px 30px 15px;">Uma mistura suave e delicada de cafés do México, Bolívia e Guatemala.</p>
+	<h2 style="margin: 0px 0px 5px 0px;">Café arábico com leite, R$ 2,35</h2>
+	<p style="margin: 0px 0px 30px 15px;">Expresso, leite fervido e xarope de chocolate.</p>
+	<h2 style="margin: 0px 0px 5px 0px;">Capuccino, R$ 1,89</h2>
+	<p style="margin: 0px 0px 30px 15px;">Uma mistura de expresso, leite fervido e espuma.</p>
+	<h2 style="margin: 0px 0px 5px 0px;">Chá Chai, R$ 1,85</h2>
+	<p style="margin: 0px 0px 30px 15px;">Uma bebida condimentada com chá preto, especiarias, leite e mel.</p>
+</body>
+</html>
