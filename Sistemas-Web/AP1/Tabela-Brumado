@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<style type="text/css">
+.infobox {
+    font-family: Arial;
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    font-size: 88%;
+    line-height: 1.5em;
+}
+.titulos {
+	color: blue;
+}
+</style>
+<title>Município de Brumado</title>
+</head>
+<body>
+<table class="infobox" style="font-size: 95%; width: 24em; text-align: left; padding:0px;">
+
+<tbody><tr>
+<td colspan="2" style="font-size: 1.25em; font-weight: bold; text-align: center">Município de Brumado
+</td></tr>
+<tr>
+<th><a class="titulos">Aniversário</a>
+</th>
+<td><a>11 de junho</a>
+</td></tr>
+<tr>
+<th><a class="titulos">Fundação</a>
+</th>
+<td><a>1877</a>
+</td></tr>
+<tr>
+<th colspan="2" style="background-color: #87cefa; text-align: center;">Localização
+</th></tr>
+<tr>
+<th><a class="titulos">Unidade federativa</a>
+</th>
+<td><a>Bahia</a>
+</td></tr>
+<tr>
+<th><a class="titulos">Microrregião</a>
+</th>
+<td>
+<a>Brumado</a>
+</td></tr>
+<tr>
+<th><a class="titulos">Municípios limítrofes</a>
+</th>
+<td>
+<a>Rio de Contas, Dom Basílio, Livramento de Nossa Senhora, Rio do Antônio, Malhada de Pedras, Maetinga, Aracatu, Tanhaçu, Ituaçu
+</td></tr>
+
+
+<tr>
+<th colspan="2" style="background-color: #87cefa; text-align: center;">Características geográficas
+</th></tr>
+<tr>
+<th><a class="titulos">Área</a>
+</th>
+<td>2.166,532 <a href="#">km²</a>
+</td></tr>
+
+<th><a class="titulos">População</a>
+</th>
+<td>64.642 hab. est. <a style="font-style: italic;">IBGE/2009</a>
+</td></tr>
+<tr>
+<th><a class="titulos">Altitude</a>
+</th>
+<td>454 <a href="/wiki/Metro" title="Metro">m</a>
+</td></tr>
+<tr>
+<th><a class="titulos">Clima</a>
+</th>
+<td><a>semiárido</a>
+</td></tr>
+</tbody></table>
+
+</body>
+</html>
